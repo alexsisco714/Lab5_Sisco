@@ -1,0 +1,1 @@
+vhdtdtfi -prj Lab5_Sisco -o "C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/PRISM.vhi" -module PRISM -template C:/Xilinx/14.1/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ROM_176x4.vhd -lib work RAM_16x4.vhd -lib work ALU_shell.vhd -lib work Memory.vhd -lib work I_O.vhd -lib work Datapath.vhd -lib work Controller.vhd -lib work PRISM.vhd 

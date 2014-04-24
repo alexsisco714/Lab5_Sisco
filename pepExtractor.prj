@@ -1,0 +1,8 @@
+work	"ALU_shell.vhd"
+work	"Controller.vhd"
+work	"Datapath.vhd"
+work	"I_O.vhd"
+work	"Memory.vhd"
+work	"PRISM.vhd"
+work	"RAM_16x4.vhd"
+work	"ROM_176x4.vhd"

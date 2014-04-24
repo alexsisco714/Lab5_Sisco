@@ -1,0 +1,36 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/Lab5_testbench_isim_beh.exe -prj C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/Lab5_testbench_beh.prj work.Lab5_testbench 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/ROM_176x4.vhd" into library work
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/RAM_16x4.vhd" into library work
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/ALU_shell.vhd" into library work
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/Memory.vhd" into library work
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/I_O.vhd" into library work
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/Datapath.vhd" into library work
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/Controller.vhd" into library work
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/PRISM.vhd" into library work
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/Lab5_testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture controller of entity Controller [controller_default]
+Compiling package numeric_std
+Compiling architecture alu of entity ALU [alu_default]
+Compiling architecture datapath of entity Datapath [datapath_default]
+Compiling architecture rom_176x4_arch of entity ROM_176x4 [rom_176x4_default]
+Compiling architecture ram_16x4_arch of entity RAM_16x4 [ram_16x4_default]
+Compiling architecture memory of entity Memory [memory_default]
+Compiling architecture io of entity IO [io_default]
+Compiling architecture prism of entity PRISM [prism_default]
+Compiling architecture behavior of entity lab5_testbench
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 22 VHDL Units
+Built simulation executable C:/Users/C16Alex.Sisco/Documents/ISE Projects/Lab5_Sisco/Lab5_testbench_isim_beh.exe
+Fuse Memory Usage: 36296 KB
+Fuse CPU Usage: 858 ms
